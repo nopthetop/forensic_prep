@@ -36,4 +36,7 @@ else
     Write-Host "Sysinternals tools are already in the system PATH."
 }
 
-Write-Host "Installation of Wireshark, Fiddler, Nmap, and Windows System Utilities is complete."
+# Disable Windows Defender
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+Write-Host "Installation of Wireshark, Fiddler, Nmap, and Windows System Utilities is complete. Windows Defender has been disabled."
