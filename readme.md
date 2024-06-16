@@ -1,1 +1,1 @@
-# Scripts for preparing a machine for analysis either forensicly or for reverse engineering.
+# Scripts for preparing a machine to analyze executables
